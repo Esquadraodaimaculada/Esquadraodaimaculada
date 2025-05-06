@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma de Pagamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Escolha a Forma de Pagamento</h1>
+    </header>
+
+    <section id="formasPagamento">
+        <h2>Selecione uma Forma de Pagamento:</h2>
+        <ul>
+            <li><button onclick="realizarPagamento('PIX')">PIX</button></li>
+            <li><button onclick="realizarPagamento('Cartão de Crédito')">Cartão de Crédito</button></li>
+            <li><button onclick="realizarPagamento('Cartão de Débito')">Cartão de Débito</button></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Loja Catolica</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
